@@ -1,0 +1,16 @@
+{
+  "name": "HarukaBot-docs",
+  "version": "1.0.0",
+  "description": "Documentations for HarukaBot",
+  "main": "index.js",
+  "repository": "https://github.com/SK-415/HarukaBot-docs.git",
+  "author": "SK-415 <2967923486@qq.com>",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "vuepress": "^1.7.1"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
